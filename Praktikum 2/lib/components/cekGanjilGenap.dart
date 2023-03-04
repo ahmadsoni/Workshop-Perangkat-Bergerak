@@ -14,7 +14,7 @@ class _CekGanjilGenapState extends State<CekGanjilGenap> {
   void actionCekGanjilGenap() {
     setState(() {
       _counter++;
-      text = _counter % 2 == 0 ? 'Genap' : 'Ganjil';
+      text = _counter % 2 == 0 ? 'Ini Genap' : 'Ganjil';
     });
   }
 
