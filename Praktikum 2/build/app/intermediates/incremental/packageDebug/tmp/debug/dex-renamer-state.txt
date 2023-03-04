@@ -1,0 +1,4 @@
+#Sat Mar 04 09:37:31 WIB 2023
+base.0=/home/suny/Desktop/PROJECT/Belajar Dan Bootcamp/Fultter/Kuliah/Minggu ke-1/Workshop-Perangkat-Bergerak/Praktikum 2/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
