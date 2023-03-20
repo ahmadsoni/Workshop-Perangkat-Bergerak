@@ -1,0 +1,45 @@
+name: workshop_perangkat_bergerak
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  carousel_slider: 4.2.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Thin.ttf
+          weight: 300
+    - family: Quantico
+      fonts:
+        - asset: assets/fonts/Quantico-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Quantico-Regular.ttf
+          weight: 400
+
+  assets:
+    - assets/images/minggu3/
+
+
