@@ -27,4 +27,7 @@ abstract class _Paths {
   static const LATIHAN3 = '/latihan3';
   static const TUGAS3 = '/tugas3';
   static const DETAILHERO = '/detailhero';
+  static const MINGGU5 = '/minggu5';
+  static const ARTICLEDETAIL = '/articledetail';
+  static const ARTICLEWEB = '/articleweb';
 }

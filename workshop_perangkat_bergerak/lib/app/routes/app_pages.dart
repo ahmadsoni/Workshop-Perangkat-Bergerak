@@ -14,7 +14,10 @@ import '../modules/minggu3/views/tugas3_view.dart';
 import '../modules/minggu3/views/detailhero_view.dart';
 import '../modules/minggu3/views/minggu3.dart';
 import '../modules/minggu3/bindings/minggu3_binding.dart';
-
+import '../modules/minggu5/bindings/minggu5_binding.dart';
+import '../modules/minggu5/views/article_detail_view.dart';
+import '../modules/minggu5/views/article_web_view.dart';
+import '../modules/minggu5/views/minggu5_view.dart';
 part 'app_routes.dart';
 
 class AppPages {
@@ -65,6 +68,19 @@ class AppPages {
     GetPage(
       name: _Paths.DETAILHERO,
       page: () => const DetailHeroView(),
+    ),
+    GetPage(
+      name: _Paths.MINGGU5,
+      page: () => const Minggu5View(),
+      binding: Minggu5Binding(),
+    ),
+    GetPage(
+      name: _Paths.ARTICLEDETAIL,
+      page: () => ArticleDetailView(),
+    ),
+    GetPage(
+      name: _Paths.ARTICLEWEB,
+      page: () => ArticleWebView(),
     ),
   ];
 }
